@@ -6,6 +6,7 @@
   A NodeJS app that uses express, express routes and HTML to create notes, read existing notes and delete notes that are stored in a JSON file.
   
   ## Table of Contents
+- [Phils Note Taker App](#phils-note-taker-app)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -16,31 +17,29 @@
   - [Contributing](#contributing)
   - [Questions](#questions)
   
-  ## Installation
+  ## <a id="installation"></a>Installation
   npm install 
   
-  ## Usage
+  ## <a id="usage"></a>Usage
   node server.js and open localhost:PORT (default is 3000)
   
-  ## Dependencies
+  ## <a id="dependencies"></a>Dependencies
   - UUID
   - FS
   - Express
 
-  ## Live URL
+  ## <a id="live-url"></a>Live URL
   ![Alt text](screenshot.png)
-  
-  Live URL Link: https://phillipkujawa.github.io/PhilsNoteTaker-Module11/
+  ![Alt text](screenshot2.png)
+  Live URL Link: https://phils-notetaker-app-module11-4fe31ed14102.herokuapp.com/
 
-  ## License
+  ## <a id="license"></a>License
   This application is covered under the [MIT](https://choosealicense.com/licenses/mit/) license.
   
-  ## Contributing
-  Here are some resources to help you get started with open source contributions:
-  
-  ## Questions
+  ## <a id="contributing"></a>Contributing
+  Contributors:
+  - https://github.com/Xandromus
+  ## <a id="questions"></a>Questions
   For more information, check out my GitHub profile: [@phillipkujawa](https://github.com/phillipkujawa)
   
   If you have any additional questions, please send an email to: phillip.kujawa@me.com
-  
-  
