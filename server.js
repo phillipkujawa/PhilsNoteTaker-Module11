@@ -53,5 +53,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, () =>
-    console.log(`Note Taker app listening at http://localhost:${port}`)
+    console.log(`Note Taker app listening at http://localhost`)
 );
