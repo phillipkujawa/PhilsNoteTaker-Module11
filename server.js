@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
-const port = 3000;
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 
@@ -53,6 +52,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
-app.listen(port, () =>
+app.listen(process.env.PORT || 3000, () =>
     console.log(`Note Taker app listening at http://localhost:${port}`)
 );
